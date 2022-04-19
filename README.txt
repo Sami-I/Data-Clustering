@@ -1,0 +1,7 @@
+INSTRUCTIONS TO RUN CODETo run the .py file compile it as you would with any other .py file using an IDE or terminal. However, the text files: animals, countries, fruits and veggies must be in the same folder as the .py file. You would ideally want to use an IDE to view the generated plots.The main function to get the results for questions 3 to 6 is the: runClustering(algorithm, isl2Norm, dataset, maxIter=10) function.
+The 'algorithm' parameter refers to which clustering algorithm to run: "k-means" or "k-medians" should be passed. 'isl2Norm' is a boolean value
+which should be set as True is you want to run the algorithm on objects that are normalised to l2 length and False otherwise. 'dataset' is the data
+passed to the algorithm to cluster. This is a list of tuples (fname, centroid, data) where fname is the True label of the object (which is the file it belongs to), centroid is the index of the centroid the object belongs to and data is the features of the object. If you want to run the algorithm on objects that are normalised to l2 length, the variable 'l2NormDataset; should be passed, otherwise the variable 'theDataset' should be passed.
+Finally 'maxIter' is the number of iteration you want to perform the clustering, by default this is set to 10.
+
+To get the results for questions 3 to 6 it is enough to just run the program as I've already written the code to get the results.
